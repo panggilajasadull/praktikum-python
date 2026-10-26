@@ -1,0 +1,7 @@
+name = input("Please input your mother name: ")
+npm = int(input("Please input your NPM: "))
+kelas = input("Please input your class: ")
+Jurusan = input("Please input your jurusan: ")
+Alamat = input("Please input your address: ")
+Hoby = input("Please input your hobby: ")
+print(name, npm, kelas, Jurusan, Alamat, Hoby)
