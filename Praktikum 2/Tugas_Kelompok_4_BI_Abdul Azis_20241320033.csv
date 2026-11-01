@@ -1,0 +1,16 @@
+SKETSA STAR SCHEMA,,,,
+Dim_Tanggal,1 ????? *,Fact_Penjualan,* ????? 1,Dim_Produk
+tanggal_id (PK),,baris_id (PK),,produk_id (PK)
+tanggal,,no_transaksi,,nama_produk
+periode,,no_baris,,kategori
+"bulan, kuartal, tahun",,tanggal_id (FK),,satuan
+,,produk_id (FK),,
+Dim_Toko,1 ????? *,Fact_Penjualan,* ????? 1,Dim_Pelanggan
+toko_id (PK),,toko_id (FK),,pelanggan_id (PK)
+nama_toko,,pelanggan_id (FK),,segmen
+kota,,"qty, harga_satuan",,
+provinsi,,"omzet, biaya, laba",,
+Relasi dimensi ? fakta,Dim_Tanggal.tanggal_id ? Fact_Penjualan.tanggal_id,,,
+,Dim_Produk.produk_id ? Fact_Penjualan.produk_id,,,
+,Dim_Toko.toko_id ? Fact_Penjualan.toko_id,,,
+,Dim_Pelanggan.pelanggan_id ? Fact_Penjualan.pelanggan_id,,,
