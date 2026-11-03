@@ -1,0 +1,10 @@
+2026-11-03 11:06:26,753 - DEBUG - AplikasiPerpustakaan - Program perpustakaan dimulai.
+2026-11-03 11:06:26,753 - INFO - AplikasiPerpustakaan - Data buku berhasil dimuat.
+2026-11-03 11:06:26,753 - WARNING - AplikasiPerpustakaan - Stok buku mulai menipis.
+2026-11-03 11:06:26,753 - ERROR - AplikasiPerpustakaan - Terjadi kesalahan saat memproses peminjaman.
+2026-11-03 11:06:26,756 - CRITICAL - AplikasiPerpustakaan - Sistem mengalami kegagalan kritis.
+2026-11-03 11:17:34,382 - DEBUG - Aplikasi sedang dimulai.
+2026-11-03 11:17:34,382 - INFO - Pengguna berhasil masuk.
+2026-11-03 11:17:34,382 - WARNING - Percobaan login mencurigakan.
+2026-11-03 11:17:34,382 - ERROR - Terjadi kesalahan pada aplikasi.
+2026-11-03 11:17:34,382 - CRITICAL - Kesalahan kritis pada sistem.
